@@ -1,0 +1,52 @@
+# =========================
+# Big Data Technology Practicum #05
+# Python + PySpark + Streamlit
+# =========================
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Native extension modules
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Test and tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Local streaming input/output snapshots (generated)
+stream_data/transportation/
+
+# Environment files
+.env
+.env.*
